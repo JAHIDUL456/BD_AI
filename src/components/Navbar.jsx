@@ -55,7 +55,7 @@ const handle=()=>{
 
                     </ul>
                 </div>
-                <div className='flex  gap-2 mr-15'>
+                <div className='flex  gap-2 '>
                     {/* buttons */}
 
                     <button className='hidden lg:block p-2 rounded-xl bg-orange-500' >Sign In</button>

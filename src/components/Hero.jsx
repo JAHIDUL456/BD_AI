@@ -4,7 +4,7 @@ import video2 from '../assets/video2.mp4';
 
 const Hero = () => {
   return (
-    <div  className='mb-10 lg:mt-20 mt-10 lg:mb-20'>
+    <div  className='mb-10 lg:mt-20 mt-20 lg:mb-20'>
         <div className='flex flex-col items-center'>
     
         <div className='text-center'>
