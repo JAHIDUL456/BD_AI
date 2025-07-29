@@ -3,7 +3,7 @@ import { features } from '../constants/index.jsx';
 
 const Features = () => {
   return (
-    <div className='mb-20 lg:mb-30'>
+    <div className='mb-10 lg:mb-15'>
         <div>
             <div className='text-center'>
                 {/* eikhane thakbe title  */}
@@ -23,7 +23,7 @@ const Features = () => {
                                 {items.icon}
                             </div>
                             <div>
-                                <h1 className='text-orange-400 text-sm lg:text-lg text-center'>{items.text}</h1>
+                                <h1 className='text-orange-400 text-sm lg:text-md text-center'>{items.text}</h1>
                             </div>
 
                             </div>
@@ -33,7 +33,9 @@ const Features = () => {
                             
                         </div>
                     ))}
+                    
                 </div>
+                <hr className='text-orange-950 mt-5' />
             </div>
         </div>
     </div>

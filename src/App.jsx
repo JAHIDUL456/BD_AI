@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar.jsx';
 import Hero from './components/Hero.jsx';
 import Features from './components/Features.jsx';
+import Work from './components/Work.jsx';
 
 
 const App = () => {
@@ -13,6 +14,9 @@ const App = () => {
       </div>
       <div className='max-w-6xl mx-auto pt-5 px-6'>
         <Features />
+      </div>
+      <div className='max-w-6xl mx-auto pt-10 px-6'>
+        <Work />
       </div>
     </div>
   )
