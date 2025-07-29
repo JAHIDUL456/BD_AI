@@ -69,19 +69,19 @@ export const features = [
     icon: <Fingerprint />,
     text: "Multi-Platform Compatibility",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Build VR applications that run seamlessly across multiple platforms, including mobile.",
   },
   {
     icon: <ShieldHalf />,
     text: "Built-in Templates",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Jumpstart your VR projects with a variety of built-in templates for different types of applications.",
   },
   {
     icon: <BatteryCharging />,
     text: "Real-Time Preview",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Preview your VR application in real-time as you make changes, allowing for quick iterations applic.",
   },
   {
     icon: <PlugZap />,
@@ -93,7 +93,7 @@ export const features = [
     icon: <GlobeLock />,
     text: "Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated .",
   },
 ];
 
