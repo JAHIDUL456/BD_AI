@@ -6,6 +6,8 @@ import Work from './components/Work.jsx';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Price from './components/Price.jsx';
+import Review from './components/Review.jsx';
 
 
 const App = () => {
@@ -27,6 +29,13 @@ const App = () => {
       </div>
       <div data-aos="fade-right" className='max-w-6xl mx-auto pt-10 px-6 z-30'>
         <Work />
+      </div>
+      <div data-aos="zoom-out" className='max-w-5xl mx-auto pt-10 px-6 z-30'>
+        <Price />
+      </div>
+
+      <div data-aos="fade-left" className='max-w-5xl mx-auto pt-5 px-6 z-30'>
+        <Review />
       </div>
     </div>
   )
