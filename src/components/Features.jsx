@@ -1,7 +1,13 @@
 import React from 'react'
 import { features } from '../constants/index.jsx';
 
+
 const Features = () => {
+
+
+
+
+
   return (
     <div className='mb-10 lg:mb-15'>
         <div>

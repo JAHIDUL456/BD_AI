@@ -37,8 +37,8 @@ const handle=()=>{
 
 
   return (
-    <div className='fixed w-full'>
-        <nav className='py-2 px-5 lg:px-15 sticky top-0  z-50 backdrop-blur-md '>
+    <div className='fixed w-full z-50'>
+        <nav className='py-2 px-5 lg:px-15 sticky top-0   backdrop-blur-md '>
             <div className='flex items-center justify-between'> 
                 {/* main container section   */}
                 <div className='inline-flex items-center gap-2'>
