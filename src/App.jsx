@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Price from './components/Price.jsx';
 import Review from './components/Review.jsx';
+import Footer from './components/Footer.jsx';
 
 
 const App = () => {
@@ -37,6 +38,7 @@ const App = () => {
       <div data-aos="fade-left" className='max-w-5xl mx-auto pt-5 px-6 z-30'>
         <Review />
       </div>
+      <Footer />
     </div>
   )
 }
